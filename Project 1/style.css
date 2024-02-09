@@ -194,13 +194,19 @@ img {
 
 .secportfolio {
   background-color: #d3d3d3;
-  padding: 48px;
+  padding: 15px;
 
 }
 
-.secportfolio h1 {
+.secportfolio-head {
+  background-color: lightgrey;
+  padding: 0px 0px;
+}
+
+.secportfolio-head h1 {
   font-size: 50px;
   color: Green;
+  text-align: center;
 }
 
 .secportfolio .wrapper-text {
@@ -217,6 +223,28 @@ img {
 
 .secportfolio figure img {
   width: 100%;
+}
+
+.secportfolio .image-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  margin: auto; /* Center the container */
+
+}
+
+.secportfolio img {
+  width: 100%; 
+  max-width: 200px; 
+  height: auto; 
+  margin: 5px; 
+  border-radius: 10px;
 }
 
 /* projects styles */
@@ -267,23 +295,3 @@ footer .fat-footer .about {
   padding: 0px;
 }
 
-
-
-.secportfolio .image-flex-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #f0f0f0; 
-  border: 2px solid #ccc; 
-  border-radius: 10px; 
-  padding: 20px; 
-}
-
-.secportfolio img {
-  width: 100%; 
-  max-width: 200px; 
-  height: auto; 
-  margin: 5px; 
-  border-radius: 5px;
-}
