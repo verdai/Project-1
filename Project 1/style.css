@@ -3,6 +3,18 @@ html {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .navbar {
+      flex-flow: column nowrap;
+      align-items: center;
+      margin-left: 0;
+  }
+
+  .navbar a {
+      margin: 5px;
+  }
+}
+
 
 * {
   box-sizing: border-box;
@@ -246,15 +258,21 @@ img {
 
 .projects {
   padding: 48px 0;
+  overflow: auto;
 }
 
 .projects .box {
   background-color: #616161;
-  ;
   height: 400px;
-  width: 300px;
+  width: 100%;
+  margin-bottom: 20px;
 
+}
 
+@media only screen and (min-width: 768px) {
+  .projects .box {
+    width: 300px;
+  }
 }
 
 .projects article {
