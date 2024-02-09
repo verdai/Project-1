@@ -25,6 +25,7 @@ h1 {
   font-size: 3.2rem;
 }
 
+
 h2 {
   font-size: 2.8rem;
 
@@ -168,29 +169,54 @@ img {
 
 
 
-/* hero styles */
+/* secmain styles */
 
-.hero {
+.secmain {
   background-color: #d3d3d3;
   padding: 0px 0px;
 }
 
-.hero .wrapper-text {
+.secmain .wrapper-text {
   width: 45%;
   float: left;
   margin-top: 40px;
 }
 
-.hero figure {
+.secmain figure {
   float: right;
   width: 55%;
   margin: 0;
 }
 
-.hero figure img {
+.secmain figure img {
   width: 100%;
+}
 
+.secportfolio {
+  background-color: #d3d3d3;
+  padding: 48px;
 
+}
+
+.secportfolio h1 {
+  font-size: 50px;
+  color: Green;
+}
+
+.secportfolio .wrapper-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.secportfolio figure {
+  float: right;
+  width: 55%;
+  margin: 0;
+}
+
+.secportfolio figure img {
+  width: 100%;
 }
 
 /* projects styles */
@@ -239,4 +265,25 @@ footer .fat-footer .about {
   float: left;
   width: 60%;
   padding: 0px;
+}
+
+
+
+.secportfolio .image-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f0f0f0; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+
+.secportfolio img {
+  width: 100%; 
+  max-width: 200px; 
+  height: auto; 
+  margin: 5px; 
+  border-radius: 5px;
 }
